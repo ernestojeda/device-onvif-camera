@@ -268,6 +268,10 @@ See the sample at [cmd/res/devices/camera.toml.example](cmd/res/devices/camera.t
 ## Tested Onvif Camera
 [Tested Onvif cameras with Onvif functions.](./doc/tested-onvif-camera.md)
 
+The postman collections for testing:
+- The [ONVIF collections](./doc/postman/onvif.postman_collection.json) are used to test the camera directly.
+- The [device-onvif-camera](./doc/postman/device-onvif-camera.postman_collection.json) collections are used to test the device service.
+
 ## Pass parameter via URL query parameter
 [Get Command Parameter](./doc/get-cmd-parameter.md)
 
